@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap');
+
+h1 {
+  color: black;
+  font-family: 'Be Vietnam Pro', sans-serif;
+  text-align: center;
+  margin-top: 2%;
+}
+
+h2 {
+  color: black;
+  font-family: 'Be Vietnam Pro', sans-serif;
+  text-align: center;
+  margin-top: 2%;
+  }
+
+P {
+  color: black;
+  font-family: 'Be Vietnam Pro', sans-serif;
+  text-align: center;
+  margin-top: 2%;
+}
+
+a {
+  color:#448EE4;
+  
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+a:hover { color: skyblue; }
