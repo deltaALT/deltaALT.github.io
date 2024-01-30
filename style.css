@@ -1,21 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap');
 
+body {
+  background-color: black;
+  color: whitesmoke;
+  font-family: 'Be Vietnam Pro', sans-serif;
+  text-align: center;
+  margin-top: 2%;
+}
+
 h1 {
-  color: black;
+  color: whitesmoke;
   font-family: 'Be Vietnam Pro', sans-serif;
   text-align: center;
   margin-top: 2%;
 }
 
 h2 {
-  color: black;
+  color: whitesmoke;
   font-family: 'Be Vietnam Pro', sans-serif;
   text-align: center;
   margin-top: 2%;
   }
 
 P {
-  color: black;
+  color: whitesmoke;
   font-family: 'Be Vietnam Pro', sans-serif;
   text-align: center;
   margin-top: 2%;
