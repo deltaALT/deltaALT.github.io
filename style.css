@@ -66,4 +66,7 @@ summary::-webkit-details-marker {
 
 .centerstuff {
 justify-content: center;
+margin: auto;
+width: auto;
+height: auto;
 }
