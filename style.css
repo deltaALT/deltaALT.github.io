@@ -40,25 +40,26 @@ a {
 }
 a:hover { color: skyblue; }
 
-.collapsible {
-  background-color: #eee;
-  color: #444;
+details {
+  user-select: none;
+}
+
+details>summary span.icon {
+  width: 24px;
+  height: 24px;
+  transition: all 0.3s;
+  margin-left: auto;
+}
+
+details[open] summary span.icon {
+  transform: rotate(180deg);
+}
+
+summary {
+  display: flex;
   cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
 }
 
-.active, .collapsible:hover {
-  background-color: white;
-}
-
-.content {
-  padding: 0 18px;
+summary::-webkit-details-marker {
   display: none;
-  overflow: hidden;
-  background-color: #f1f1f1;
-} 
+}
