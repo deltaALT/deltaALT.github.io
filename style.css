@@ -63,10 +63,3 @@ summary {
 summary::-webkit-details-marker {
   display: none;
 }
-
-.centerstuff {
-justify-content: center;
-margin: auto;
-width: auto;
-height: auto;
-}
